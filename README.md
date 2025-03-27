@@ -2,9 +2,12 @@
 
 This is a demo project for junior Laravel developers to practice their skills.
 
-The task is fully described [in this article](https://laraveldaily.com/post/demo-project-laravel-support-ticket-system).
+# Task Task
 
-A few screenshots:
+A system to manage support tickets. customers register as users and can create tickets, then admins assign them to agents, and all parties can view ticket statuses.
+
+A few screenshots from the example solution:
+
 
 ![Screenshot 1](https://laraveldaily.com/uploads/2022/11/laravel-support-tickets-01.png)
 
