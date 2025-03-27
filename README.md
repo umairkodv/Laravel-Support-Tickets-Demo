@@ -30,9 +30,9 @@ There should be login and register functionality, they may come from starter kit
 
 Every user needs to have one of three roles:
 
-1 Regular user (default)
-2 Agent
-3 Administrator
+- Regular user (default)
+- Agent
+- Administrator
 
 New users can register and they are assigned Regular articles role.
 
