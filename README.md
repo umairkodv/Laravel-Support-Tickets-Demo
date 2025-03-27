@@ -15,14 +15,14 @@ A system to manage support tickets. customers register as users and can create t
 # Database structure
 
 ## Every ticket needs to have:
-> title (required)
-> text description (required)
-> multiple files attached (optional)
-> priority (choose from a few options)
-> status (choose from a few options like open/closed)
-> assigned user agent (foreign key to users table)
-> multiple categories (belongsToMany relationship with categories table)
-> multiple labels (belongsToMany relationship with labels table)
+- title (required)
+- text description (required)
+- multiple files attached (optional)
+- priority (choose from a few options)
+- status (choose from a few options like open/closed)
+- assigned user agent (foreign key to users table)
+- multiple categories (belongsToMany relationship with categories table)
+- multiple labels (belongsToMany relationship with labels table)
 
 # Auth
 
