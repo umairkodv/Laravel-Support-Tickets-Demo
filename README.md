@@ -6,14 +6,40 @@ This is a demo project for junior Laravel developers to practice their skills.
 
 A system to manage support tickets. customers register as users and can create tickets, then admins assign them to agents, and all parties can view ticket statuses.
 
-A few screenshots from the example solution:
-
-
 ![Screenshot 1](https://laraveldaily.com/uploads/2022/11/laravel-support-tickets-01.png)
 
 ![Screenshot 2](https://laraveldaily.com/uploads/2022/11/laravel-support-tickets-02.png)
 
 - - - - -
+
+# Database structure
+
+## Every ticket needs to have:
+> title (required)
+> text description (required)
+> multiple files attached (optional)
+> priority (choose from a few options)
+> status (choose from a few options like open/closed)
+> assigned user agent (foreign key to users table)
+> multiple categories (belongsToMany relationship with categories table)
+> multiple labels (belongsToMany relationship with labels table)
+
+# Auth
+
+There should be login and register functionality, they may come from starter kit like Laravel Breeze or other one of your choice.
+
+Every user needs to have one of three roles:
+
+> Regular user (default)
+> Agent
+> Administrator
+
+New users can register and they are assigned Regular articles role.
+
+There should be one Administration user created with database seeds.
+
+After registration or login, users get inside the system which would look like a typical adminpanel to manage data: menus, tables, CRUDs for administrator.
+
 
 ## How to use
 
