@@ -1,6 +1,6 @@
 # Laravel Demo: Support Tickets
 
-This is a demo project for junior Laravel developers to practice their skills. 
+This is a demo project for junior Laravel developers to practice their skills.
 
 # Task Task
 
